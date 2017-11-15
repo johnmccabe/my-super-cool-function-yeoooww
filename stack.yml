@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  my-super-cool-function-yeoooww:
+    lang: go
+    handler: ./my-super-cool-function-yeoooww
+    image: johnmccabe/my-super-cool-function-yeoooww
